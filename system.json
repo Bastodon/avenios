@@ -9,20 +9,29 @@
     },
     "authors": [{
       "name": "Bastodon",
-      "url": "https://github.com/Bastodon",
-      "email": "superbastodon@gmail.com",
-      "discord": "Bastodon"
+      "url": "https://github.com/Bastodon"
     }],
     "esmodules": ["avenios.mjs"],
     "styles": ["styles/avenios-styles.css"],
     "packs": [{
-      "name": "monsters",
-      "label": "My Monsters",
+      "name": "player",
+      "label": "Personnages",
+      "system": "avenios",
+      "path": "packs/player",
       "type": "Actor"
     },
     {
+        "name": "monster",
+        "label": "Créatures",
+        "system": "avenios",
+        "path": "packs/monster",
+        "type": "Actor"
+    },
+    {
       "name": "items",
-      "label": "My Items",
+      "label": "Notes",
+      "system": "avenios",
+      "path": "packs/items",
       "type": "Item"
     }],
     "languages": [{
@@ -49,7 +58,7 @@
     },
     "primaryTokenAttribute": "resources.health",
     "secondaryTokenAttribute": "resources.power",
-    "url": "https://your/hosted/system/repo/",
-    "manifest": "https://your/hosted/system/repo/system.json",
+    "url": "https://github.com/Bastodon/avenios",
+    "manifest": "https://github.com/Bastodon/avenios/system.json",
     "download": "https://your/packaged/download/archive.zip"
   }
