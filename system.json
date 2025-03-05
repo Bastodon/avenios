@@ -39,6 +39,8 @@
       "name": "French",
       "path": "lang/fr.json"
     }],
+
+
     "documentTypes": {
       "Actor": {
         "hero": { "htmlFields": ["background.biography"] },
@@ -50,6 +52,8 @@
         "spell": {}
       }
     },
+
+
     "socket": false,
     "initiative": "1d6",
     "grid": {
@@ -60,5 +64,5 @@
     "secondaryTokenAttribute": "resources.power",
     "url": "https://github.com/Bastodon/avenios",
     "manifest": "https://github.com/Bastodon/avenios/system.json",
-    "download": "https://your/packaged/download/archive.zip"
+    "download": "https://github.com/Bastodon/avenios.zip"
   }
