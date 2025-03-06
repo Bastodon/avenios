@@ -15,14 +15,14 @@
     "styles": ["styles/avenios-styles.css"],
     "packs": [{
       "name": "player",
-      "label": "Personnages",
+      "label": "Personnage",
       "system": "avenios",
       "path": "packs/player",
       "type": "Actor"
     },
     {
         "name": "monster",
-        "label": "Créatures",
+        "label": "Créature",
         "system": "avenios",
         "path": "packs/monster",
         "type": "Actor"
@@ -43,13 +43,12 @@
 
     "documentTypes": {
       "Actor": {
-        "hero": { "htmlFields": ["background.biography"] },
-        "villain": { "htmlFields": ["background.biography"] },
-        "pawn": {}
+        "Personnage": { "htmlFields": ["background.biography"] },
+        "Créature": { "htmlFields": ["background.biography"] },
+        "Pion": {}
       },
       "Item": {
-        "weapon": {},
-        "spell": {}
+        "Notes": {}
       }
     },
 
