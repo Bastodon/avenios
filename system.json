@@ -13,20 +13,10 @@
     }],
     "esmodules": ["avenios.js"],
     "styles": ["styles/styles.css"],
-    "packs": [{
-      "name": "player",
-      "label": "Personnages",
-      "system": "avenios",
-      "path": "packs/player",
-      "type": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "Objets",
-      "system": "avenios",
-      "path": "packs/items",
-      "type": "Item"
-    }],
+    "packs": [
+      
+    ],
+
     "languages": [{
       "lang": "fr",
       "name": "French",

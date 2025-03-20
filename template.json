@@ -1,5 +1,12 @@
 {
-    "Actor": {},
+    "Actor": {
+        "types":[
+            "Personnages",
+            "Monstres",
+            "Unités",
+            "Autres"
+        ]
+    },
     "Item": {
         "types":[
             "Armes",
