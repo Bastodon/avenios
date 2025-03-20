@@ -33,15 +33,7 @@
       "path": "lang/fr.json"
     }],
 
-    "documentTypes": {
-      "Actor": {
-        "Personnage": { "htmlFields": ["background.biography"] },
-        "Créature": { "htmlFields": ["background.biography"] },
-        "Pion": {}
-      }
-    },
-
-    "initiative": "1d6 + @init",
+    "initiative": "1d6 + @speed",
     "grid": {
       "distance": 1,
       "units": "m"
