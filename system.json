@@ -33,18 +33,13 @@
       "path": "lang/fr.json"
     }],
 
-
     "documentTypes": {
       "Actor": {
         "Personnage": { "htmlFields": ["background.biography"] },
         "Créature": { "htmlFields": ["background.biography"] },
         "Pion": {}
-      },
-      "Item": {
-        "Notes": {}
       }
     },
-
 
     "initiative": "1d6 + @init",
     "grid": {
@@ -56,4 +51,4 @@
     "url": "https://github.com/Bastodon/avenios",
     "manifest": "https://github.com/Bastodon/avenios/system.json",
     "download": "https://github.com/Bastodon/avenios.zip"
-  }
+}

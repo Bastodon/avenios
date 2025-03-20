@@ -27,8 +27,8 @@
                 "itemDescription"
             ],
             "PA":0,
-            "state":0,
             "part": "torse",
+            "state":0,
             "special":""
         },
         "consumable":{
