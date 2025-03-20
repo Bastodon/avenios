@@ -1,0 +1,41 @@
+{
+    "Actor": {},
+    "Item": {
+        "types":[
+            "weapon",
+            "armor",
+            "consumable"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            }
+        },
+        "weapon":{
+            "templates": [
+                "itemDescription"
+            ],
+            "damage":0,
+            "pen":0,
+            "range":1,
+            "state":0,
+            "type":0,
+            "special":""
+        },
+        "armor":{
+            "templates": [
+                "itemDescription"
+            ],
+            "PA":0,
+            "state":0,
+            "part": "torse",
+            "special":""
+        },
+        "consumable":{
+            "templates": [
+                "itemDescription"
+            ],
+            "effect":""
+        }
+    }
+}

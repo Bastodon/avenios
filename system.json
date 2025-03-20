@@ -11,25 +11,18 @@
       "name": "Bastodon",
       "url": "https://github.com/Bastodon"
     }],
-    "esmodules": ["avenios.mjs"],
-    "styles": ["styles/avenios-styles.css"],
+    "esmodules": ["avenios.js"],
+    "styles": ["styles/styles.css"],
     "packs": [{
       "name": "player",
-      "label": "Personnage",
+      "label": "Personnages",
       "system": "avenios",
       "path": "packs/player",
       "type": "Actor"
     },
     {
-        "name": "monster",
-        "label": "Créature",
-        "system": "avenios",
-        "path": "packs/monster",
-        "type": "Actor"
-    },
-    {
       "name": "items",
-      "label": "Notes",
+      "label": "Objets",
       "system": "avenios",
       "path": "packs/items",
       "type": "Item"
@@ -53,14 +46,13 @@
     },
 
 
-    "socket": false,
-    "initiative": "1d6",
+    "initiative": "1d6 + @init",
     "grid": {
-      "distance": 2,
+      "distance": 1,
       "units": "m"
     },
-    "primaryTokenAttribute": "resources.health",
-    "secondaryTokenAttribute": "resources.power",
+    "primaryTokenAttribute": "pv",
+    "secondaryTokenAttribute": "pm",
     "url": "https://github.com/Bastodon/avenios",
     "manifest": "https://github.com/Bastodon/avenios/system.json",
     "download": "https://github.com/Bastodon/avenios.zip"
